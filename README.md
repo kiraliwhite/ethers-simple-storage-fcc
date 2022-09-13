@@ -5,13 +5,13 @@ https://github.com/smartcontractkit/full-blockchain-solidity-course-js#lesson-5-
 
 ### 前置環境：
 
-#### a. 安裝 [virtual studio code](https://code.visualstudio.com/) ,[NodeJs](https://nodejs.org/en/)
+#### a. 安裝 [virtual studio code](https://code.visualstudio.com/), [NodeJs](https://nodejs.org/en/)
 
-#### b. 安裝 virtual studio code 延伸模組：solidity+Hardhat ,prettier
+#### b. 安裝 virtual studio code 延伸模組：solidity+Hardhat, prettier
 
 #### c. 建立一工作資料夾
 
-#### d. 進入此資料夾,安裝 [yarn](https://yarnpkg.com/getting-started/install)
+#### d. 進入此資料夾, 安裝[yarn](https://yarnpkg.com/getting-started/install)
 
 #### e. yarn add solc, yarn add solc@0.8.7-fixed, yarn add ethers
 
@@ -21,7 +21,7 @@ https://github.com/smartcontractkit/full-blockchain-solidity-course-js#lesson-5-
 
 #### 1. 撰寫 solidity 智能合約 SimpleStorage.sol
 
-#### 2. 使用 solc 指令 compile 智能合約,產生 abi 與 bin 檔
+#### 2. 使用 solc 指令 compile 智能合約, 產生 abi 與 bin 檔
 
 yarn solcjs --bin --abi --include-path node_modules/ --base-path . -o . SimpleStorage.sol
 
