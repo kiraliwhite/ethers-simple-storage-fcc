@@ -10,11 +10,18 @@ https://github.com/smartcontractkit/full-blockchain-solidity-course-js#lesson-5-
 #### b. 安裝 virtual studio code 延伸模組：solidity+Hardhat, prettier
 
 #### c. 建立一工作資料夾
+> mkdir workspace
 
-#### d. 進入此資料夾, 安裝[yarn](https://yarnpkg.com/getting-started/install)
+#### d. 進入工作資料夾, 安裝[yarn](https://yarnpkg.com/getting-started/install)
+> cd workspace
+> corepack enable
 
-#### e. yarn add solc, yarn add solc@0.8.7-fixed, yarn add ethers
-
+#### e. 安裝相關node_module
+> yarn add solc 
+> yarn add solc@0.8.7-fixed
+> yarn add ethers
+> yarn add fs-extra
+> yarn add dotenv 
 #### f. 安裝[Ganache](https://trufflesuite.com/ganache/) 本地區塊鏈測試環境, 並啟動
 
 ### 開始：
