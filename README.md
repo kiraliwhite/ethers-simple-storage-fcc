@@ -31,6 +31,6 @@ yarn solcjs --bin --abi --include-path node_modules/ --base-path . -o . SimpleSt
 
 #### 4. 撰寫 deploy.js
 
-
+#### 5. node deploy.js
 
 部署智能合約 SimpleStorage.sol 到本地區塊鏈環境 Ganache
