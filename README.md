@@ -25,12 +25,10 @@ https://github.com/smartcontractkit/full-blockchain-solidity-course-js#lesson-5-
 
 yarn solcjs --bin --abi --include-path node_modules/ --base-path . -o . SimpleStorage.sol
 
-#### 3.(optional) 撰寫.env, .encryptKey.js
+#### 3.(optional) 撰寫.env, .encryptKey.js, node .encryptKey.js
 
 使用密碼加密 PRIVATE_KEY,並產出 encryptedKey.json
 
-#### 4. 撰寫 deploy.js
-
-#### 5. node deploy.js
+#### 4. 撰寫 deploy.js, node deploy.js
 
 部署智能合約 SimpleStorage.sol 到本地區塊鏈環境 Ganache
