@@ -13,15 +13,15 @@ https://github.com/smartcontractkit/full-blockchain-solidity-course-js#lesson-5-
 > mkdir workspace
 
 #### d. 進入工作資料夾, 安裝[yarn](https://yarnpkg.com/getting-started/install)
-> cd workspace
-> corepack enable
+> cd workspace<br>
+> corepack enable<br>
 
 #### e. 安裝相關node_module
-> yarn add solc 
-> yarn add solc@0.8.7-fixed
-> yarn add ethers
-> yarn add fs-extra
-> yarn add dotenv 
+> yarn add solc<br>
+> yarn add solc@0.8.7-fixed<br>
+> yarn add ethers<br>
+> yarn add fs-extra<br>
+> yarn add dotenv<br>
 #### f. 安裝[Ganache](https://trufflesuite.com/ganache/) 本地區塊鏈測試環境, 並啟動
 
 ### 開始：
