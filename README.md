@@ -34,6 +34,10 @@ https://github.com/smartcontractkit/full-blockchain-solidity-course-js#lesson-5-
 
 #### 3.(optional) 撰寫.env, .encryptKey.js
 
+從Ganache上取得PRIVATE_KEY
+
+在.env內寫入PRIVATE_KEY_PASSWORD 和 PRIVATE_KEY
+
 使用密碼(PRIVATE_KEY_PASSWORD) 加密 PRIVATE_KEY,並產出 encryptedKey.json
 
 > node .encryptKey.js
