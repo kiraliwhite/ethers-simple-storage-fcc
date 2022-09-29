@@ -3,7 +3,7 @@ const fs = require("fs-extra");
 require("dotenv").config();
 
 async function main() {
-    //http://127.0.0.1:7545
+    //Goerli RPC_URL 是alchemy 提供的
     const provider = new ethers.providers.JsonRpcProvider(process.env.RPC_URL);
     //const wallet = new ethers.Wallet(process.env.PRIVATE_KEY, provider);
     //移除上方wallet這行 改用讀取.encryptedKey.json 讀取結果存在變數encryptedJson 中
