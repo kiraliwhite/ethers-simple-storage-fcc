@@ -34,9 +34,13 @@ https://github.com/smartcontractkit/full-blockchain-solidity-course-js#lesson-5-
 
 #### 3.(optional) 撰寫.env, .encryptKey.js
 
+在.env內寫入 PRIVATE_KEY_PASSWORD 和 PRIVATE_KEY
+
 使用密碼(PRIVATE_KEY_PASSWORD) 加密 MetaMask所提供的PRIVATE_KEY,並產出 encryptedKey.json
 
 > node .encryptKey.js
+
+加密完成之後從.env中 刪除PRIVATE_KEY_PASSWORD 和 PRIVATE_KEY
 
 #### 4. 註冊alchemy,取得RPC URL
 
@@ -48,6 +52,6 @@ https://eth-goerli.g.alchemy.com/v2/xxxxxxxxxxxx
 
 #### 5. 撰寫 deploy.js
 
-> node deploy.js
+> PRIVATE_KEY_PASSWORD=xxxxx node deploy.js 
 
 部署智能合約 SimpleStorage.sol 到本地區塊鏈環境 Ganache
