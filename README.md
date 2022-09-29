@@ -22,7 +22,6 @@ https://github.com/smartcontractkit/full-blockchain-solidity-course-js#lesson-5-
 > yarn add ethers<br>
 > yarn add fs-extra<br>
 > yarn add dotenv<br>
-#### f. 安裝[Ganache](https://trufflesuite.com/ganache/) 本地區塊鏈測試環境, 並啟動
 
 ### 開始：
 
@@ -33,6 +32,8 @@ https://github.com/smartcontractkit/full-blockchain-solidity-course-js#lesson-5-
 > yarn solcjs --bin --abi --include-path node_modules/ --base-path . -o . SimpleStorage.sol
 
 #### 3.(optional) 撰寫.env, .encryptKey.js
+
+PRIVATE_KEY從MetaMask上取得
 
 在.env內寫入 PRIVATE_KEY_PASSWORD 和 PRIVATE_KEY
 
